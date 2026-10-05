@@ -1755,6 +1755,41 @@
           background: white;
         }
       }
+            /* Center the homepage content and give the text enough room. */
+      .hero .hero-centered {
+        max-width: 1000px;
+        margin: 0 auto;
+        text-align: center;
+      }
+      
+      /* Space between the logo and the full lab name. */
+      .hero .hero-logo-wrap {
+        margin-bottom: 24px;
+      }
+      
+      /* Smaller centered logo. */
+      .hero .hero-logo {
+        display: block;
+        width: 500px;
+        max-width: 100%;
+        height: auto;
+        margin: 0 auto;
+      }
+      
+      /* Full lab name under the logo. */
+      .hero .full-name {
+        font-size: clamp(20px, 2.2vw, 28px);
+        font-weight: 600;
+        line-height: 1.45;
+        max-width: 960px;
+        margin: 0 auto;
+      }
+      
+      /* Description under the lab name. */
+      .hero .lead {
+        font-size: clamp(18px, 1.6vw, 20px);
+        line-height: 1.65;
+      }
     </style>
   </head>
   <body>
